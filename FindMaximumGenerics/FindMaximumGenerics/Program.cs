@@ -7,7 +7,7 @@ namespace FindMaximumGenerics
         static void Main(string[] args)
         {
             FindMaximum find = new FindMaximum();
-            Console.WriteLine(find.MaximumFloatNumber(10.5f, 20.5f, 30.5f));
+            Console.WriteLine(find.MaximumStringNumber("Apple", "Banana", "Carrot"));
         }
     }
 }
